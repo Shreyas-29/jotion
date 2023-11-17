@@ -13,7 +13,7 @@ const Heading = () => {
     const { isAuthenticated, isLoading } = useConvexAuth();
 
     return (
-        <div className="max-w-3xl space-y-4">
+        <div className="flex flex-col items-center justify-center max-w-3xl space-y-4">
             <h1 className="text-3xl font-bold sm:text-5xl md:text-6xl">
                 Your Ideas, Documents, & Plans. Unified. Welcome to {" "}
                 <span className="underline">
