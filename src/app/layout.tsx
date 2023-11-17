@@ -37,7 +37,7 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={cn(
-                "min-h-screen bg-[#1F1F1F]",
+                "min-h-screen dark:bg-[#1F1F1F]",
                 font.className,
             )}>
                 <ConvexClientProvider>
